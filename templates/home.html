@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <!-- Import Boostrap css, js, font awesome here -->
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <!--<link href="home.css" rel="stylesheet" type="text/css" />-->
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+        body {
+            width: 100%;
+            font-family: 'Helvetica';
+            background: linear-gradient(45deg,#CCFFFF,#FFCCCC);
+            font-size: 17px;
+            letter-spacing: 1px;
+            line-height: 1.2;
+        }
+
+        footer {
+            background-color: white;
+            font-size: 22px;
+            line-height: 1.5;
+        }
+
+        .navbar {
+            background-color: white !important;
+            font-size: 25px;
+            letter-spacing: 3px;
+        }
+
+            .navbar li a {
+                color: #C57CAC !important;
+            }
+
+                .navbar li a:hover {
+                    color: black !important;
+                }
+
+        .heading {
+            display: flex;
+            color: #103667;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 15px;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+        }
+
+        .btn-primary {
+            background-color: rgb(82, 64, 120);
+            border: 1px solid white;
+            margin: 20px 0px 25px 0px;
+        }
+
+            .btn-primary:hover {
+                background-color: rgb(62, 44, 100);
+                border: 1px solid white;
+            }
+
+        hr.light {
+            border-top: 1.5px solid #5BBD2B;
+            width: 75%;
+        }
+
+        .light-100 {
+            border-top: 2px solid #83C75D;
+            width: 100%;
+        }
+
+        .model {
+            padding: 35px 10px 15px 70px;
+        }
+
+
+        .style {
+            margin: auto;
+        }
+
+        /*Media Query*/
+
+        @media (max-width: 992px) {
+            .carousel-caption {
+                top: 20%;
+            }
+
+                .carousel-caption h1 {
+                    font-size: 250%;
+                }
+
+                .carousel-caption h3 {
+                    font-size: 160%;
+                }
+
+                .carousel-caption .btn {
+                    font-size: 120%;
+                }
+        }
+
+
+        @media (max-width: 768px) {
+            .carousel-caption {
+                top: 20%;
+            }
+
+                .carousel-caption h1 {
+                    font-size: 220%;
+                }
+
+                .carousel-caption h3 {
+                    font-size: 140%;
+                    padding-bottom: 0.2rem;
+                }
+
+                .carousel-caption .btn {
+                    font-size: 95%;
+                    padding: 8px 14px;
+                }
+        }
+
+        @media (max-width: 576px) {
+            .carousel-caption {
+                top: 10%;
+            }
+
+                .carousel-caption h1 {
+                    font-size: 150%;
+                }
+
+                .carousel-caption h3 {
+                    font-size: 110%;
+                }
+
+                .carousel-caption .btn {
+                    font-size: 90%;
+                    padding: 4px 8px;
+                }
+        } 
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-branch" href="#">
+                <img src="./bootstrap/logo.jpg" alt="HTML5 image" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/"><strong><u>Home</u></strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/predict">Test</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="heading">
+        <h1><strong>OVERVIEW</strong></h1>
+        <p>CERVICAL CANCER</p>
+    </div>
+
+
+    <div>
+        <div class="row">
+            <div class="col-8 model">
+                <h2>Symptoms of cervical cancer</h2>
+
+                <p>Cancer of the cervix often has no symptoms in its early stages.</p>
+                <p>If you do have symptoms, the most common is abnormal vaginal bleeding, which can occur during or after sex, in between periods, or new bleeding after you have been through the menopause.</p>
+                <p>Abnormal bleeding does not mean you have cervical cancer, but you should see a GP as soon as possible to get it checked out.</p>
+                <p>If a GP thinks you might have cervical cancer, you should be referred to see a specialist within 2 weeks.</p>
+
+            </div>
+            <div>
+                <img src="https://www.who.int/reproductivehealth/publications/cancers/cc-access-to-prevention.png?ua=1" alt="HTML5 image" style="width:350px;height:350px; margin-left:auto;margin-right:auto;display:block;">
+            </div>
+            <hr class="light">
+        </div>
+     
+        <div class="row">
+            <div class="col-4">
+                <h2 class="model">Screening for cervical cancer</h2>
+                <img src="https://www.who.int/reproductivehealth/publications/cancers/cc-data.png?ua=1" alt="HTML5 image" style="width:350px;height:350px; margin-left:auto;margin-right:auto;display:block;">
+
+            </div>
+            <div class="col-8 model">
+                
+                <p>The best way to protect yourself from cervical cancer is by attending cervical screening (previously known as a &quot;smear test&quot;) when invited.</p>
+                <p>The NHS Cervical Screening Programme invites all women from the age of 25 to 64 to attend cervical screening.</p>
+                <p>Women aged 25 to 49 are offered screening every 3 years, and those aged 50 to 64 are offered screening every 5 years.</p>
+                <p>During cervical screening, a small sample of cells is taken from the cervix and checked under a microscope for abnormalities.</p>
+                <p>In some areas, the screening sample is first checked for human papillomavirus (HPV), the virus that can cause abnormal cells.</p>
+                <p>An abnormal cervical screening test result does not mean you definitely have cancer.</p>
+                <p>Most abnormal results are due to signs of HPV, the presence of treatable precancerous cells, or both, rather than cancer itself.</p>
+                <p>You should be sent a letter confirming when it&#x27;s time for your screening appointment. Contact a GP if you think you may be overdue.</p>
+
+            </div>
+            <hr class="light">
+        </div>
+
+        <div class="row">
+            <div class="col-8 model">
+                <h2>What causes cervical cancer?</h2>
+
+                <p>Almost all cases of cervical cancer are caused by HPV. HPV is a very common virus that can be passed on through any type of sexual contact with a man or a woman.</p>
+                <p>There are more than 100 types of HPV, many of which are harmless. But some types can cause abnormal changes to the cells of the cervix, which can eventually lead to cervical cancer.</p>
+                <p>Two strains, HPV 16 and HPV 18, are known to be responsible for most cases of cervical cancer.</p>
+                <p>They do not have any symptoms, so women will not realise they have it.</p>
+                <p>But these infections are very common and most women who have them do not develop cervical cancer.</p>
+                <p>Using condoms during sex offers some protection against HPV, but it cannot always prevent infection because the virus is also spread through skin-to-skin contact of the wider genital area.</p>
+                <p>The HPV vaccine has been routinely offered to girls aged 12 and 13 since 2008.</p>
+
+            </div>
+            <div>
+                <img src="https://www.who.int/reproductivehealth/publications/cancers/cc-hpv-vaccine.png?ua=1" alt="HTML5 image" style="width:390px;height:390px; margin-left:auto;margin-right:auto;display:block;">
+            </div>
+            <hr class="light">
+        </div>
+
+
+        <div class="row">
+            <div class="col-4">
+                <h2 class="model">Treating cervical cancer</h2>
+                <img src="https://www.who.int/reproductivehealth/publications/cancers/cc-treatment.png?ua=1" alt="HTML5 image" style="width:350px;height:350px; margin-left:auto;margin-right:auto;display:block;">
+
+            </div>
+            <div class="col-8 model">
+
+                <p>If cervical cancer is diagnosed at an early stage, it&#x27;s usually possible to treat it using surgery.</p>
+                <p>In some cases, it&#x27;s possible to leave the womb in place, but it may need to be removed.</p>
+                <p>The surgical procedure used to remove the womb is called a hysterectomy.</p>
+                <p>Radiotherapy is another option for some women with early-stage cervical cancer.</p>
+                <p>In some cases, it&#x27;s used alongside surgery or chemotherapy, or both.</p>
+                <p>More advanced cases of cervical cancer are usually treated using a combination of chemotherapy and radiotherapy.</p>
+                <p>Some of the treatments can have significant and long-lasting side effects, including early menopause and infertility.</p>
+
+            </div>
+            <hr class="light">
+        </div>
+
+        <div class="row">
+            <div class="col-8 model">
+                <h2>Complications</h2>
+                <p>Some women with cervical cancer may develop complications.</p>
+                <p>These can arise as a direct result of the cancer or as a side effect of treatments like radiotherapy, chemotherapy and surgery.</p>
+                <p>Complications associated with cervical cancer can range from the relatively minor, like some bleeding from the vagina or having to pee frequently, to life threatening, such as severe bleeding or kidney failure.</p>
+
+            </div>
+            <div>
+                <img src="https://www.who.int/reproductivehealth/publications/cancers/cc-prevention.png?ua=1" alt="HTML5 image" style="width:390px;height:390px; margin-left:auto;margin-right:auto;display:block;">
+            </div>
+            
+        </div>
+
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="style">
+                        <p>Contact Us</p>
+                        <hr class="light">
+                        <h6>Phone: 111-222-3333</h6>
+                        <h6>Email: mymail@gmail.com</h6>
+                        <h6>Address: Le Dai Hanh street, HCM, Vietnam</h6>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light-100">
+                        <h6>&copy; Test SheCodes Ho Chi Minh</h6>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
